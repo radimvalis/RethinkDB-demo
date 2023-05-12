@@ -7,16 +7,16 @@
 git clone git@github.com:radimvalis/RethinkDB-demo.git
 ```
 
-* download RethinkDB [here](https://rethinkdb.com/docs/install/)
+* download [RethinkDB](https://rethinkdb.com/docs/install/)
 
-* start server with following command:
+* start the server with following command:
 ```
 rethinkdb
 ```
 
-## Web UI
+## Administrative UI
 
-* to see the web interface, visit [localhost:8080](localhost:8080)
+* to see administrative UI, visit [localhost:8080](http://localhost:8080)
 
 ## Install Python driver
 
@@ -40,7 +40,7 @@ python3 src/load_data.py
 python3 src/queries/query_attendance.py
 ```
 
-* Q1: Stadiums near Prague
+* Q2: Stadiums near Prague
 ```
 python3 src/queries/query_geospatial.py
 ```
